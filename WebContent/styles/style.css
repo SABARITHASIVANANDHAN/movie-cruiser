@@ -1,0 +1,203 @@
+/*header*/
+header {
+    top: 0%;
+    background-color: #4360a3;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+}
+
+/*footer*/
+footer {
+    bottom: 0%;
+    background-color: #8b8c8f;
+    min-width: 100%;
+    position: fixed;
+    left: 0%;
+    padding: 0.5%;
+}
+
+/*header-name*/
+.movie-cruiser {
+    color: #fafafa;
+    margin-left: 1%;
+    position: fixed;
+    top: 1%;
+    height: 5%;
+    font-size: 25px;
+    font-family: Calibri;
+}
+
+/* image logo*/
+.image-img {
+    margin-left: 10%;
+}
+
+/*title-movie*/
+nav a {
+    font-size: 15px;
+    margin-left: 90%;
+    top: 1%;
+    position: fixed;
+    color: #ffffff;
+    font-family: Calibri;
+}
+
+/*Movie List Customer Notification-favourites*/
+#link {
+    margin-left: 95%;
+    font-family: Calibri;
+}
+
+/*Edit Movie-name*/
+#name {
+    width: 99%;
+    font-family: Calibri;
+}
+
+/*All tables*/
+.table {
+    top: 25%;
+    margin-left: 5%;
+    position: fixed;
+    font-family: Calibri;
+}
+
+/*movie-title*/
+.movie-heading{
+    top: 15%;
+    position: fixed;
+    margin-left: 5%;
+    font-size: 30px;
+    font-family: Calibri;
+}
+
+/*delete/add-to-favourite-link*/
+a {
+    color: #000000;
+    font-family: Calibri;
+}
+
+/*Edit Movie Status*/
+#status {
+    color: #2e9925;
+    top: 20%;
+    position: fixed;
+    margin-left: 5%;
+    font-family: Calibri;
+    font-size: 18px;
+}
+
+/*Movie List Customer Notification*/
+#notification {
+    color: #2e9925;
+    top: 20%;
+    position: fixed;
+    margin-left: 15%;
+    font-family: Calibri;
+}
+
+/*Favorites Empty*/
+#empty {
+    top: 20%;
+    position: fixed;
+    margin-left: 4%;
+    color: #c0c2c0;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-left: 5%;
+    font-family: Calibri;
+}
+
+/*Favorites Empty */
+#favorites-empty {
+    color: #0295c2;
+    font-family: Calibri;
+}
+
+/*footer*/
+#copy-right {
+    margin-left: 0.5%;
+    font-family: Calibri;
+}
+
+/*submit button*/
+#submit {
+    background-color: #234094;
+    width: 150px;
+    height: 40px;
+    border: none;
+    padding: 5px;
+    color: #ffffff;
+    font-family: Calibri;
+}
+
+/*form labels*/
+.grey {
+    color: #827f7f;
+    font-family: Calibri;
+}
+
+/*checkbox*/
+#teaser {
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    font-family: Calibri;
+}
+
+/*checkbox value*/
+#has-teaser {
+    font-family: Calibri;
+    size: 10px;
+    color: #787878;
+}
+
+/*form-page-table*/
+table {
+    top: 20%;
+    margin-left: 5%;
+    position: fixed;
+    font-family: Calibri;
+}
+
+/*favorite-notification*/
+#no-of-favorites{
+	position: fixed;
+	top:33%;
+	margin-left: 5%;
+	}
+
+/*favorites*/	
+#n-of-favorites{
+	position: fixed;
+	top:37%;
+	margin-left: 5%;
+	}
+
+/*Edit movie-gross*/	
+#boxoffice{
+	width: 60%;
+    font-family: Calibri;
+	}
+
+/*Edit movie-dateOfLaunch*/	
+#date-of-launch{
+	width: 80%;
+    font-family: Calibri;
+	}
+	
+/*Edit movie-active*/
+#yes{
+	width: 20px;
+	height: 20px;
+    font-family: Calibri;
+	}
+	
+/*Edit movie-active*/
+#no{
+	width: 20px;
+	height: 20px;
+    font-family: Calibri;
+	}
+	
