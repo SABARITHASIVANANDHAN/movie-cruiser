@@ -39,11 +39,11 @@ public class FavoriteDaoCollectionImpl implements FavoriteDao {
 
             userFavorites.get(userId).getFavoriteList().add(movie);
         } else {
-            Favorite fav = new Favorite();
+            Favorite favorite = new Favorite();
             List<Movie> movielist = new ArrayList<Movie>();
             movielist.add(movie);
-            fav.setFavoriteList(movielist);
-            userFavorites.put(userId, fav);
+            favorite.setFavoriteList(movielist);
+            userFavorites.put(userId, favorite);
         }
     }
 

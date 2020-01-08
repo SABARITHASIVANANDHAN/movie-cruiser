@@ -28,8 +28,8 @@ public class FavoriteDaoCollectionImplTest {
     public static void testGetAllFavorites() {
         try {
             System.out.println("Retrieving all  favorites");
-            List<Movie> fav = favoriteDao.getAllFavorites(1).getFavoriteList();
-            for (Movie movie : fav) {
+            List<Movie> favorite = favoriteDao.getAllFavorites(1).getFavoriteList();
+            for (Movie movie : favorite) {
                 System.out.println(movie);
             }
             System.out.println("No of Favorites :" + favoriteDao.getAllFavorites(1).getTotal());
