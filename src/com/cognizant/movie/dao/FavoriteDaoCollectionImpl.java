@@ -25,8 +25,9 @@ public class FavoriteDaoCollectionImpl implements FavoriteDao {
 
         }
 
-        int total = favorites.getFavoriteList().size();
-        favorites.setTotal(total);
+        int noOfFavorite = favorites.getFavoriteList().size();
+       
+        favorites.setNoOfFavorite(noOfFavorite);
         return favorites;
     }
 
